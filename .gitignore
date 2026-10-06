@@ -1,0 +1,22 @@
+.vercel
+.env*
+!.env.example
+
+# Local dependencies, credentials, and generated files
+node_modules/
+vendor/
+.next/
+.next-build/
+dist/
+build/
+.vercel/
+.data/
+.env*
+!.env.example
+*.log
+*.zip
+*.sqlite*
+*.db
+*.tsbuildinfo
+.DS_Store
+supabase/.temp/
